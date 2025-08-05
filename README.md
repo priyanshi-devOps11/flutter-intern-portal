@@ -1,16 +1,72 @@
-# intern_portal_app
+# 📱 Flutter Intern Portal  
 
-A new Flutter project.
+A simple **fundraising intern dashboard app** built with Flutter for the internship task.  
+This app is a prototype (UI-only, no backend) that simulates how interns can log in, track donations, view leaderboards, and check announcements.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features  
 
-A few resources to get you started if this is your first Flutter project:
+✅ **Login / Sign Up (UI only)**  
+✅ **Dashboard** – shows intern name, referral code, donations raised, rewards  
+✅ **Leaderboard** – mock ranking of interns with donations  
+✅ **Announcements** – static notices and updates  
+✅ **Bottom Navigation** – easy navigation between all pages  
+✅ **Modern UI** with Google Fonts + smooth transitions  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots  
+
+| Login | Dashboard | Leaderboard | Announcements |
+|-------|-----------|-------------|---------------|
+| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) | ![Leaderboard](screenshots/leaderboard.png) | ![Announcements](screenshots/announcements.png) |
+
+> Place your screenshots inside a `screenshots/` folder in the repo.
+
+---
+
+## 📂 Project Structure  
+
+lib/
+├── main.dart # App entry point
+├── pages/
+│ ├── login_page.dart # Login UI
+│ ├── home_page.dart # Bottom navigation + AppBar
+│ ├── dashboard_page.dart # Intern stats
+│ ├── leaderboard_page.dart
+│ └── announcements_page.dart
+
+
+---
+
+## ⚙️ Tech Stack  
+
+- **Flutter** (3.x)  
+- **Dart**  
+- **Google Fonts** (Poppins)  
+
+---
+
+## 📦 Installation  
+
+Clone this repo and run on your local system:  
+
+```bash
+git clone https://github.com/priyanshi-devOps11/flutter-intern-portal.git
+cd flutter-intern-portal
+flutter pub get
+flutter run
+
+## 📲 APK Download
+🏆 Internship Task Requirements
+ Login / Sign-Up Page
+ Dashboard Page
+ Leaderboard Page
+ Announcements Page
+ Clean design & animations
+ GitHub Repo + Screenshots
+👩‍💻 About the Developer
+Priyanshi Srivastava
+📧 Email: srivastavapriyanshi8081@gmail.com
+
